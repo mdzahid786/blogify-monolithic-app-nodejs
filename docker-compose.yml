@@ -1,7 +1,7 @@
 services:
   nodeapp:
-    build: .
-    #image: blogify
+    #build: .
+    image: mdzahid786/blogify:latest
     container_name: blogify
     ports:
       - "${PORT}:${PORT}"
