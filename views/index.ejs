@@ -1,0 +1,7 @@
+<h1><%= title %></h1>
+<p>This is the home page rendered by EJS</p>
+<ul>
+  <% products.forEach(function(product) { %>
+  <li><%= product.title %></li>
+  <% }); %>
+</ul>
